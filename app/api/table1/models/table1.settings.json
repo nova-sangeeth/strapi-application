@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "table1s",
+  "info": {
+    "name": "table1"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "interests": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "biginteger"
+    },
+    "date_of_birth": {
+      "type": "date"
+    }
+  }
+}
