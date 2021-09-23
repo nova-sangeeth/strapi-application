@@ -25,6 +25,10 @@
     },
     "date_of_birth": {
       "type": "date"
+    },
+    "table_2": {
+      "via": "table_1_s",
+      "model": "table2"
     }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "table2s",
+  "info": {
+    "name": "table2"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "crimes": {
+      "type": "text"
+    },
+    "history": {
+      "type": "richtext"
+    },
+    "table_1_s": {
+      "collection": "table1",
+      "via": "table_2"
+    }
+  }
+}
